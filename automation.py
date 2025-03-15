@@ -7,9 +7,9 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
 # Email Configuration
-EMAIL_SENDER = "narayan171998@gmail.com"
-EMAIL_PASSWORD = "wuxi djfd nepo ycmw"
-UPLOAD_FOLDER = "/Users/narayansanthanam/Downloads/BCG project/uploads"
+EMAIL_SENDER = "Enter your mail address"
+EMAIL_PASSWORD = "Enter your password"
+UPLOAD_FOLDER = "folder list"
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
